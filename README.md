@@ -104,6 +104,12 @@ Is the spelling of variable names, comments, etc. correct and consistent?
 
 ### Language Specific
 
+**Note:** This pass is ideally done by someone with experience and aptitude in the language being used.
+
+Is the code well designed?
+
+**Justification:** While there are some design principles that cross language boundaries, often the subtle questions around what a well designed program is are language specific. It's worth keeping a separate "code review design" checklist for different languages, and consulting it when appropriate.
+
 Is the code idiomatic to the language?
 
 **Justification:** Unidiomatic code is hard to read for regular users of the langauge.
@@ -148,6 +154,7 @@ For more depth:
   - Is this code subject to any common programming gotchas? (i.e. transposition errors, off by one errors, etc.)
   - Is the spelling of variable names, comments, etc. correct and consistent?
 * Language Specific
+  - Is the code well designed?
   - Is the code idiomatic to the language?
   - Are there new language usage patterns being introduced?
   - Does the code fall into any common pitfalls of the language?
